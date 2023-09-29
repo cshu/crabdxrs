@@ -11,8 +11,8 @@ reqwest = {version= "*", features = ["blocking", "json"]}
 serde = { version = "*", features = ["derive"] }
 serde_json = "*"
 log = "*"
-crabrs = { path = "../crabrs" }
-crabwebrs = { path = "../crabwebrs" }
+crabrs = { git = "https://github.com/cshu/crabrs" }
+crabwebrs = { git = "https://github.com/cshu/crabwebrs" }
 
 [profile.release]
 debug = 1
